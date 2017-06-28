@@ -1,3 +1,6 @@
+# made solution_gender.csv
+# score = 0.76555
+
 import pandas as pd
 
 train = pd.read_csv('train.csv')
