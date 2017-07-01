@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bedfc480-2929-4833-9d33-6cced30ea88f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solution_tree_better.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solution_tree_better_1498739483.6288395.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solution_tree_better_1498739588.798701.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solution_two.py" afterPath="$PROJECT_DIR$/solution_tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solution_random_forest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solution_tree_feature_eng.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,14 +19,48 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="solution_tree_better.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="solution_tree_better.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution_tree_better.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="751">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#155#174#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution_tree_feature_eng.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution_tree_feature_eng.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="e#140#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution_random_forest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution_random_forest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <folding>
+                <element signature="e#428#447#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution_1498888965.63413.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution_1498888965.63413.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,13 +111,16 @@
         <option value="$PROJECT_DIR$/solution_gender.py" />
         <option value="$PROJECT_DIR$/solution_two.py" />
         <option value="$PROJECT_DIR$/solution_three.py" />
+        <option value="$PROJECT_DIR$/solution_four.py" />
+        <option value="$PROJECT_DIR$/solution_five.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="318" />
+    <option name="x" value="301" />
+    <option name="y" value="35" />
     <option name="width" value="1559" />
-    <option name="height" value="1038" />
+    <option name="height" value="968" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -128,24 +163,7 @@
       <recent name="C:\Users\prajakti\Documents\Coding\Kaggle Titanic\MLTitanic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.solution_three">
-    <configuration default="false" name="prediction" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MLTitanic" />
-      <option name="SCRIPT_NAME" value="C:\Users\prajakti\Documents\Coding\KaggleTitanic\MLTitanic\solution_gender.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.solution_five">
     <configuration default="false" name="solution_gender" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,6 +211,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MLTitanic" />
       <option name="SCRIPT_NAME" value="C:\Users\prajakti\Documents\Coding\KaggleTitanic\MLTitanic\solution_tree_better.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="solution_four" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MLTitanic" />
+      <option name="SCRIPT_NAME" value="C:\Users\prajakti\Documents\Coding\KaggleTitanic\MLTitanic\solution_tree_feature_eng.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="solution_five" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MLTitanic" />
+      <option name="SCRIPT_NAME" value="C:\Users\prajakti\Documents\Coding\KaggleTitanic\MLTitanic\solution_random_forest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -331,18 +383,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.prediction" />
-      <item index="1" class="java.lang.String" itemvalue="Python.solution_gender" />
-      <item index="2" class="java.lang.String" itemvalue="Python.solution_two" />
-      <item index="3" class="java.lang.String" itemvalue="Python.solution_three" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.solution_gender" />
+      <item index="1" class="java.lang.String" itemvalue="Python.solution_two" />
+      <item index="2" class="java.lang.String" itemvalue="Python.solution_three" />
+      <item index="3" class="java.lang.String" itemvalue="Python.solution_four" />
+      <item index="4" class="java.lang.String" itemvalue="Python.solution_five" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.solution_three" />
-        <item index="1" class="java.lang.String" itemvalue="Python.solution_two" />
-        <item index="2" class="java.lang.String" itemvalue="Python.solution_gender" />
-        <item index="3" class="java.lang.String" itemvalue="Python.prediction" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.solution_five" />
+        <item index="1" class="java.lang.String" itemvalue="Python.solution_four" />
+        <item index="2" class="java.lang.String" itemvalue="Python.solution_three" />
+        <item index="3" class="java.lang.String" itemvalue="Python.solution_two" />
+        <item index="4" class="java.lang.String" itemvalue="Python.solution_gender" />
       </list>
     </recent_temporary>
   </component>
@@ -363,16 +417,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="318" y="0" width="1559" height="1038" extended-state="0" />
-    <editor active="false" />
+    <frame x="301" y="35" width="1559" height="968" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24853991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24853991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.081021085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15282792" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -640,10 +694,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution_tree_better.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="751">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#155#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution_tree_feature_eng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#140#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution_1498888965.63413.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution_random_forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#428#447#0" expanded="true" />
           </folding>
         </state>
       </provider>
